@@ -7,22 +7,15 @@ body {
 
 h1 {
   padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 h2 {
   color: #8be9fd;
 }
 
-figure {
-  position: relative;
-}
-
 figcaption {
-  position: absolute;
-  bottom: 0;
   color: #6272a466;
-  right: 0;
-  left: 0;
   text-align: center;
   font-size: 12px;
 }
@@ -40,19 +33,7 @@ figcaption a {
   height: 128px;
 }
 
-.wip {
-  /* padding-top: 40%; */
-  aspect-ratio: 4/3;
-  background: url("coming_soon.jpg") no-repeat center center;
-  background-size: contain;
-  padding: 0 30%;
-}
-@media (max-width: 767px) {
-  .wip {
-    /* padding-top: 40%; */
-    aspect-ratio: 4/3;
-    background: url("coming_soon.jpg") no-repeat center center;
-    background-size: contain;
-    padding: 0;
-  }
+.responsive {
+  max-width: 90%;
+  height: auto;
 }
