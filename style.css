@@ -1,0 +1,49 @@
+html,
+body {
+  background-color: #282a36;
+  color: #f8f8f2;
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: #8be9fd;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  color: #6272a466;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+figcaption a {
+  color: #457b9d66;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-bottom: 0;
+  height: 128px;
+}
+
+.wip {
+  /* padding-top: 40%; */
+  aspect-ratio: 4/3;
+  background: url("coming_soon.jpg") no-repeat center center;
+  background-size: contain;
+  padding: 0 30%;
+}
