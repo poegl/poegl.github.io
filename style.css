@@ -47,3 +47,12 @@ figcaption a {
   background-size: contain;
   padding: 0 30%;
 }
+@media (max-width: 767px) {
+  .wip {
+    /* padding-top: 40%; */
+    aspect-ratio: 4/3;
+    background: url("coming_soon.jpg") no-repeat center center;
+    background-size: contain;
+    padding: 0;
+  }
+}
