@@ -3,7 +3,24 @@ body {
   background-color: #282a36;
   color: #f8f8f2;
   text-align: center;
+  /* padding: 20px; */
+  height: 100%;
+  margin: 0;
 }
+
+/* @media (prefers-color-scheme: light) { */
+/*   html, */
+/*   body { */
+/*     background-color: #282a36; */
+/*   } */
+/* } */
+
+/* @media (prefers-color-scheme: dark) { */
+/*   html, */
+/*   body { */
+/*     background-color: #282a36; */
+/*   } */
+/* } */
 
 h1 {
   padding-bottom: 30px;
@@ -28,8 +45,8 @@ figcaption a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
-  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
   height: 128px;
 }
 
